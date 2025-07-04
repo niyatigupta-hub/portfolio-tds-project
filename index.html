@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div id="navbar">
+        <ul style="display: flex; flex-wrap: wrap; justify-content: center; padding: 0; margin: 0;"></ul>
+            <li class="listNav"><a class="anav" href="#bio">PERSONAL DETAILS</a></li>
+            <li class="listNav"><a class="anav" href="#projects">PROJECTS</a></li>
+            <li class="listNav"><a class="anav" href="#contact">CONTACT ME</a></li>
+        </ul>
+    </div>
+    <button class="detBtn" id="mode">Change Mode</button>
+
+    <div id="bio">
+        <h1>Personal Details</h1>
+        <img src="pfp.jpeg" alt="profile picture">
+        <div id="con">
+        <ul id="details">
+            <li><b>NAME</b>:Niyati Gupta</li>
+            <li><b>UNIVERSITY</b>:NSUT,Delhi</li>
+            <li><b>EDUCATIONAL QUALIFICATION</b>:CSDS Sophomore</li>
+            <li><b>Skills</b>:<ul><li class="skills">HTML</li>
+            <li class="skills">CSS</li>
+            <li class="skills">JS</li>
+            <li class="skills">C++</li>
+            <li class="skills">Python</li>
+            <li class="skills" >Web Devolopment</li>
+            <li class="skills">Web Content Writing</li>
+        </ul>
+        </li>
+            <li><b>Socities I Am Currently In</b>:<ul><li class="skills">Team Kalpana</li>
+                <li class="skills">IEEE</li>
+            </ul>
+        </li>
+        </ul>
+        </div>
+        <p><i>I am Niyati Gupta and have recently completed my first year as a CSDS student at NSUT.I have a keen interest in structured problem solving and web devolopment.I am currently strengthening my skills in C++, DSA,and building responsive websites through HTML,CSS and JavaScript.As a content writer in Team Kalpana(the aerospace society of NSUT),I enjoy presenting technical ideas with clarity and purpose.With a methodical and a growth focused mindset,I aim to gain hands-on experience through impactful projects and expand my horizons.
+            </i>
+
+        </p>
+        
+    </div>
+  <h1><b><u>PROJECTS</u></b></h1>
+    <div id="projects">
+      
+        <div id="Mission Decrypt" class="prodet">
+            <h1>Mission Decrypt</h1>
+            <button class="detBtn" id="btn1">View Details</button>
+            <div style="visibility: hidden;">
+            <h1>Mission Decrypt</h1>
+            <h2><i>A cryptography-based web challenge devoloped for team kalpana's tech event</i></h2>
+            <img class="proimg" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/sites/67886/images/RTYfh51hRL2wXesNqZGa_Largest-encryption-key-cracked.jpg" alt="decryption">
+            <ul> 
+                <li><b>Features:</b>
+                    <ul>
+                        <li>Interactive levels with increasing difficulty</li>
+                        <li>Real time hints and score tracking</li>
+                    </ul>
+                    
+                </li>
+                <li><b>Impact:</b> Engaged over 50 participants in a gamified tech experience</li>
+                <li><b>Role:</b> Participant and a content writer</li>
+            </ul>
+            </div>
+        </div>
+        <div id="ClimaCast" class="prodet">
+            <h1>ClimaCast</h1>
+            <button class="detBtn" id="btn2">View Details</button>
+            <div style="visibility: hidden;">
+            <h1>ClimaCast</h1>
+            <h2><i>A sleek weather forecasting web app that delivers real time weather insights</i></h2>
+            <img class="proimg" alt="weather" src="https://cdn-icons-png.flaticon.com/256/8880/8880994.png">
+            <ul>
+                <li><b>Tech Stack:</b> HTML,CSS,JavaScript,open weather map API</li>
+                <li><b>Features:</b>
+                    <ul>
+                        <li>Search by city or location</li>
+                        <li>Displays temperature,humidity,wind and weather icons</li>
+                        <li><b>Role:</b>Solo Devoloper</li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+
+        </div>
+        <div id="Tic Tac Toe" class="prodet">
+            <h1>Tic Tac Toe Duel</h1>
+            <button class="detBtn" id="btn3">View Details</button>
+            <div style="visibility: hidden;">
+            <h1>Tic Tac Toe Duel</h1>
+            <h2><i> A sleek browser based game designed for logic practice and UI polishing </i></h2>
+            <img class="proimg" alt="game" src="https://thumbs.dreamstime.com/b/k-blue-pink-tic-tac-toe-game-icon-black-background-glowing-neon-line-tic-tac-toe-o-game-icon-black-background-318165951.jpg">
+            <ul>
+                <li><b>Tech Stack:</b> HTML,CSS,JavaScript</li>
+                <li><b>Features:</b>
+                    <ul>
+                        <li>Clean,responsive 3x3 game board</li>
+                        <li>Win/draw detection logic with real-time status updates</li>
+                        <li>Restart button to replay without page refresh</li>
+                    </ul>
+                </li>
+                <li><b>Role:</b> Solo Devoloper</li>
+            </ul>
+        </div>
+        </div>
+
+    </div>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            <b>Email:</b>
+            <a href="mailto:niyati.gupta.ug24@nsut.ac.in">niyati.gupta.ug24@nsut.ac.in</a><br>
+            <b>Phone:</b>
+            <a href="tel:9993456709"> 9993456709</a>
+            
+        </p>
+    </section>
+    <div>
+        <form id="form">
+            <h2>Kindly fill this form</h2>
+            <input type="text" id="name" placeholder="your name" required/><br>
+            <input type="email" id="email" placeholder="your email" required/><br>
+            <textarea id="message" placeholder="anything you wish to convey"></textarea><br>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
+                <button class="formBtn" id="sub" type="submit">submit</button>
+                <button class="formBtn" id="rst" type="reset">reset</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
